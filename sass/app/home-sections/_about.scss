@@ -1,0 +1,30 @@
+#about {
+    margin-bottom: 70px;
+  .container {
+    .about-text {
+      padding-top: 70px;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+    text-align: center;
+    @extend .flex;
+    @extend .flex-column;
+    @extend .align-items-center;
+    @extend .justify-center;
+    h1 {
+      @extend .font;
+      font-size: 30px;
+      opacity: 0.9;
+      font-weight: 300;
+      margin-bottom: 10px;
+    }
+    p {
+      width: 600px;
+      padding: 5px;
+      font-weight: 500;
+      @extend .font;
+      font-size: 14px;
+    }
+  }
+}

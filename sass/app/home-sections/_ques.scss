@@ -1,0 +1,36 @@
+#ques{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    .container{
+        h2{
+            @extend .font;
+            text-align: center;
+            color: #382526;
+            font-size: 30px;
+            font-weight: 300;
+        }
+        .col-6{
+            padding-top: 60px;
+            h1{
+                @extend .font;
+                color: #382526;
+                font-size: 24px;
+                margin-bottom: 10px;
+                font-weight: normal;
+            }
+            p{
+                @extend .font;
+                color: #382526;
+                font-size: 14px;
+            }
+            span{
+                color: rgb(46, 46, 247);
+                cursor: pointer;
+            }
+            span:hover{
+                color: #382526;
+                border-bottom: 1px solid #382526;
+            }
+        }
+    }
+}

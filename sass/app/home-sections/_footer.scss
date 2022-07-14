@@ -1,0 +1,32 @@
+#footer{
+    background: #191919;
+    color: #999;
+    font-size: 16px;
+    @extend .flex;
+    .col-8{
+        ul{
+            @extend .flex; 
+            padding: 10px 0px 10px 0px;
+        }      
+        li{
+            padding: 5px;
+            cursor: pointer;
+        }
+        li:hover{            
+            border-bottom: 1px solid #fff;
+        }
+
+    }
+    .col-4{
+        text-align: center;
+        @extend .flex;
+        @extend .align-items-center;
+        span{
+            color: #fff;
+            cursor: pointer;
+        }
+        span:hover{
+            border-bottom: 1px solid #fff;
+        }
+    }
+}
